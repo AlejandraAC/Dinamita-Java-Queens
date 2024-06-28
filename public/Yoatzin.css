@@ -2,21 +2,18 @@ section {
     border: 2px solid black;
 }
 
-    /* .col{
-        border: 2px solid rgb(138, 209, 132);
-      }
-      .component{
-        border: 2px solid rgb(116,17,93);
-        min-height: 3rem;
-      } 
-       */
+/* Clase para barra de navegación */
 .navbar {
     background-color: #E4007F;
     width: 100%;
     height: 100%;
-    font-family: Corben
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-size: large;
+    font-style: normal;
 }
 
+/* Clase para pie de página */
 .footer-basic {
     background-color: #F1A20B;
     position: fixed;
@@ -24,9 +21,39 @@ section {
     width: 100%;
     min-height: 2rem;
     padding: 1rem;
-    font-family: Mulish;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
+/* Clase de fuente titulos */
+.corben-regular {
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.corben-bold {
+    font-family: "Corben", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Clase para el logo */ 
+.logo-image {
+    max-height: 1rem;
+    height: auto;
+    max-width: 5rem;
+}
+
+/* Estilo para distribuir el menú en toda la página */
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* Ajustes adicionales */
 #logo-title img {
     max-width: 5rem;
     height: auto;
@@ -39,7 +66,3 @@ section {
 .responsive-text {
     font-size: 2vw; /* Ajusta este valor según tus necesidades */
 }
-
-
-
-

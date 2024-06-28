@@ -5,14 +5,14 @@ body{
     display:flex;
     color:white;
     height: 3rem;
-    gap:15px;
+    gap:20px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     font-weight: lighter;
     flex-direction:row;
     background-color:peru;
-    font-style:initial;
+    font-style: Mulish;
 }
 
 .Dinamita-titulo{
@@ -21,9 +21,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
-.barra-título{
+.Yoatzin-título{
     text-align:center;
     background-color:#08807B ;
+    width: 100%;
     
 }
 
@@ -31,30 +32,49 @@ body{
     background-color: #E4007F;
     width: 100%;
     height: 5rem;
-    font-family: Corben
+    font-family: Corben;
     
     } 
-
+.Yoatzin-título{
+color: aliceblue;
+font-family: Corben;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 50px;
+}
     body{
     background-color: black;
     }
-    .container {
+    #arregloTarjetas {
     margin-top: 10px;
     background-color: #08807B;
-    padding: 25px;    
+width: 100%;
+margin-left: 10px;
+margin-right: 10px;
+justify-content: center;
     }
 
     .h1aN {
     color: white;
     font-size: 40px;
     font-family: Corben;
+    text-align: center;
     }
     .ph1 {
+        text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Mulish;
     margin-left: 30px;
     margin-right: 30px;
+    }
+    .Dinamita-J-Q{
+        color: white;
+        text-align: center;
+        font-family: Mulish;
+        padding: 27px;
+        font-size:20px;
+        margin: 30px;
     }
     .footer-basic{
     background-color: #F1A20B;
