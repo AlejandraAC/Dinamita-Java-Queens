@@ -1,0 +1,45 @@
+section {
+    border: 2px solid black;
+}
+
+    /* .col{
+        border: 2px solid rgb(138, 209, 132);
+      }
+      .component{
+        border: 2px solid rgb(116,17,93);
+        min-height: 3rem;
+      } 
+       */
+.navbar {
+    background-color: #E4007F;
+    width: 100%;
+    height: 100%;
+    font-family: Corben
+}
+
+.footer-basic {
+    background-color: #F1A20B;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 2rem;
+    padding: 1rem;
+    font-family: Mulish;
+}
+
+#logo-title img {
+    max-width: 5rem;
+    height: auto;
+}
+
+.tight-paragraphs p {
+    margin-bottom: 0.1rem; /* Ajusta este valor según tus necesidades */
+}
+
+.responsive-text {
+    font-size: 2vw; /* Ajusta este valor según tus necesidades */
+}
+
+
+
+
